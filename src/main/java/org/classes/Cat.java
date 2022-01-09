@@ -6,7 +6,15 @@ public class Cat {
     private int age;
     private String name = "Barsik";
 
-    
+    public Cat(int age) {
+        this.age = age;
+
+
+    }
+
+    public Cat(String name) {
+        this.name = name;
+    }
 
     public Cat(int age, String name) {
         this.age = age;
