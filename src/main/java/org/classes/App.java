@@ -11,7 +11,8 @@ public class App
 
        Car car1 = new Car();
 
-
-        System.out.println(car1.carGetInfo());
+       Reader reader = new Reader("Petrov", "Ivan", "Ivanovich", 17121996, 122, "Economy", 380565);
+        reader.takeBook(1);
+        System.out.println();
     }
 }
